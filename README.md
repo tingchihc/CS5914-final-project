@@ -11,6 +11,7 @@ Name: Ting-Chih Chen and Xiao Guo
 Our Dataset is CelebA-100.zip.  
 It includes 100 source images and 100 perturbation images(from starGAN).  
 Before you run the codes, you should unzip it and make sure the root.  
+Then, we have three target images(Kobe, Obama, and Ariana) in target_images.zip.  
 
 ## Task-1  
 
