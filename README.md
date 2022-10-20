@@ -8,7 +8,7 @@ https://arxiv.org/pdf/2003.01279.pdf
 Name: Ting-Chih Chen and Xiao Guo  
 
 ## Dataset  
--- CelebA-100.zip:  
+-- CelebA-100.zip  
 This file includes about 100 source images from CelebA and 100 perturbation images made from starGAN with imperceptible perturbations.  
 
 -- target_images.zip  
