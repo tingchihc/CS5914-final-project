@@ -10,10 +10,10 @@ Name: Ting-Chih Chen and Xiao Guo
 ## Dataset  
 ```bash
 ├── Dataset
-│   ├── CelebA.zip
+│   ├── CelebA-100.zip
 │   └── target_images.zip
 ```
-CelebA.zip includes about 100 source images from CelebA and 100 perturbation images made from starGAN with imperceptible perturbations.  
+CelebA-100.zip includes about 100 source images from CelebA and 100 perturbation images made from starGAN with imperceptible perturbations.  
 target_images.zip includes three target images(Kobe, Obama, and Ariana). We use these target images to do deepfake.  
 
 ## Task-1 Break down the defender  
