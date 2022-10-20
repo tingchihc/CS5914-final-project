@@ -8,12 +8,11 @@ https://arxiv.org/pdf/2003.01279.pdf
 Name: Ting-Chih Chen and Xiao Guo  
 
 ## Dataset  
--- CelebA-100.zip: this file includes about 100 source images from CelebA and 100 perturbation images made from starGAN and  
+-- CelebA-100.zip:  
+This folder includes about 100 source images from CelebA and 100 perturbation images made from starGAN with imperceptible perturbations.  
+
 -- target_images.zip  
-Our Dataset is CelebA-100.zip.  
-It includes 100 source images and 100 perturbation images(from starGAN).  
-Then, we have three target images(Kobe, Obama, and Ariana) in target_images.zip.  
-Before you run the codes, you should unzip it and make sure the root.  
+This folder has three target images(Kobe, Obama, and Ariana).  
 
 ## Task-1 Break down the defender  
 
