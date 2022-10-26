@@ -18,5 +18,6 @@ target_images.zip includes three target images(Kobe, Obama, and Ariana). We use 
 
 ## Task-1 Break down the defender  
 Method-1: fewshot-face-translation-GAN  
+Method-2: StyleGAN  
 
 ## Task-2 Reverse the perturbation images to source images  
