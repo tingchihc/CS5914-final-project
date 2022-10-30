@@ -7,21 +7,28 @@ from skimage import metrics
 
 
 def calcMse(dirname):
-    imageCount = len([entry for entry in os.listdir(dirname) if os.path.isfile(os.path.join(dirname, entry))]) / 2
+    # imageCount = len([entry for entry in os.listdir(dirname) if os.path.isfile(os.path.join(dirname, entry))]) / 2
     i = 1
     mse = 0
     SSIM = 0
     psnr = 0
-    while i < imageCount + 1:
-        origin = io.imread(dirname + str(i) + '-O.jpg')
-        perturb = io.imread(dirname + str(i) + "-P.jpg")
+    list = os.listdir(dirname)
+    root = []
+    for k in range(0, len(list)):
+        root.append(dirname + list[k])
+    for k in range(0, len(list)):
+        origin = io.imread(root[k])
+        perturb = io.imread(root[k + 1])
+        print(root[k], root[k + 1])
         mse += skimage.metrics.mean_squared_error(origin, perturb)
         SSIM += skimage.metrics.structural_similarity(origin, perturb, multichannel=True, data_range=255)
         psnr += skimage.metrics.peak_signal_noise_ratio(origin, perturb)
-        i += 1
-    mse /= imageCount
-    SSIM /= imageCount
-    psnr /= imageCount
+        k += 2
+
+        print(mse)
+    mse /= len(list)
+    SSIM /= len(list)
+    psnr /= len(list)
     print(mse)
     print(SSIM)
     print(psnr)
