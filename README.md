@@ -23,7 +23,7 @@ Method-3: StyleGAN-NADA
 
 ### Results  
 | GANs | MSE | SSIM | PSNR|
-| --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: |
 | fewshot-face-translation-GAN | 57.684 | 0.951 | 32.295 |  
 | GHOST | 0.737 | 0.998 | 50.396 |  
 | StyleGAN-NADA | 247.152 | 0.777 | 25.259 |  
