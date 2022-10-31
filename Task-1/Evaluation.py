@@ -16,23 +16,32 @@ def calcMse(dirname):
     root = []
     for k in range(0, len(list)):
         root.append(dirname + list[k])
-    for k in range(0, len(list)):
-        origin = io.imread(root[k])
-        perturb = io.imread(root[k + 1])
-        print(root[k], root[k + 1])
-        mse += skimage.metrics.mean_squared_error(origin, perturb)
-        SSIM += skimage.metrics.structural_similarity(origin, perturb, multichannel=True, data_range=255)
-        psnr += skimage.metrics.peak_signal_noise_ratio(origin, perturb)
-        k += 2
+    count = 0
+    for k in range(0, 101):
+        oriName = str(k) + "-O.jpg"
+        perName = str(k) + "-P.jpg"
+
+        if (oriName in list and perName in list):
+            oriFile = dirname + oriName
+            perFile = dirname + perName
+            print(oriFile, perFile)
+            origin = io.imread(oriFile)
+            perturb = io.imread(perFile)
+            mse += skimage.metrics.mean_squared_error(origin, perturb)
+            SSIM += skimage.metrics.structural_similarity(origin, perturb, multichannel=True, data_range=255)
+            psnr += skimage.metrics.peak_signal_noise_ratio(origin, perturb)
+            count += 1
+        k += 1
 
         print(mse)
-    mse /= len(list)
-    SSIM /= len(list)
-    psnr /= len(list)
+    print(count)
+    mse /= count
+    SSIM /= count
+    psnr /= count
     print(mse)
     print(SSIM)
     print(psnr)
 
 
-dirname = "C:/Users/123/Desktop/Results_ariana/"
+dirname = "C:/Users/123/Desktop/resultsKK/"
 calcMse(dirname)
