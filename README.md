@@ -27,6 +27,6 @@ Method-3: StyleGAN-NADA
 | fewshot-face-translation-GAN | 57.684 | 0.951 | 32.295 |  
 | GHOST | 0.737 | 0.998 | 50.396 |  
 | StyleGAN-NADA | 247.152 | 0.777 | 25.259 |  
-| StyleGAN-Baseline | 177.981 | 0.788 | 26.839 |  
+| StyleGAN-Baseline | 226.91 | 0.799 | 26.61 |  
 
 ## Task-2 Reverse the perturbation images to source images  
