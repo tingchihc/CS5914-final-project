@@ -33,3 +33,7 @@ Method-3: StyleGAN-NADA
 | StyleGAN-Baseline | 226.91 | 0.799 | 26.611 |  
 
 ## Task-2 Reverse the perturbation images to source images  
+Method-1: auto-encoder  
+Method-2: Image restoration  
+
+### Results  
