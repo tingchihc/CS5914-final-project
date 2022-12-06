@@ -12,6 +12,7 @@ Name: Ting-Chih Chen and Xiao Guo
 ```bash
 ├── Task-1
     ├── Dataset
+        ├── Readme.md
         ├── CelebA-100.zip
         └── target_images.zip
     ├── GHOST
@@ -19,6 +20,7 @@ Name: Ting-Chih Chen and Xiao Guo
         └── Task1_GHOST.ipynb
     ├── StyleGAN-NADA
         ├── stylegan_nada.ipynb
+        ├── readme.md
         ├── resultsA.zip
         ├── resultsK.zip
         └── resultsO.zip
@@ -28,16 +30,14 @@ Name: Ting-Chih Chen and Xiao Guo
             ├── Results_kobe.zip
             └── Results_obama.zip
         ├── Task1_Online_tool.ipynb
+        └── Readme.md
     ├── Evaluation.py
     └── Results - Task1.csv
 ```
 
 Method-1: fewshot-face-translation-GAN  
 Method-2: GHOST  
-Method-3: StyleGAN-NADA  
-
-CelebA-100.zip includes about 100 source images from CelebA and 100 perturbation images made from starGAN with imperceptible perturbations.  
-target_images.zip includes three target images(Kobe, Obama, and Ariana). We use these target images to do deepfake.  
+Method-3: StyleGAN-NADA   
 
 
 ### Results  
