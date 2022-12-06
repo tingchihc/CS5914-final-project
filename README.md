@@ -20,7 +20,7 @@ Name: Ting-Chih Chen and Xiao Guo
         └── Task1_GHOST.ipynb
     ├── StyleGAN-NADA
         ├── stylegan_nada.ipynb
-        ├── readme.md
+        ├── Readme.md
         ├── resultsA.zip
         ├── resultsK.zip
         └── resultsO.zip
