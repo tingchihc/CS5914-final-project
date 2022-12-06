@@ -36,9 +36,9 @@ Name: Ting-Chih Chen and Xiao Guo
 
 ```
 
-Method-1: fewshot-face-translation-GAN  
-Method-2: GHOST  
-Method-3: StyleGAN-NADA   
+Model-1: fewshot-face-translation-GAN  
+Model-2: GHOST  
+Model-3: StyleGAN-NADA   
 
 
 ### Results  
@@ -56,5 +56,5 @@ Method-3: StyleGAN-NADA
     ├──Restormer.ipynb
     └──Task2DataSet.zip
 ```
-Method-1: Auto-encoder  
-Method-2: Restormer  
+Model-1: Auto-encoder  
+Model-2: Restormer  
