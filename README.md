@@ -51,7 +51,7 @@ Method-3: StyleGAN-NADA
 
 ## Task-2 Removing the perturbation in the images
 ```bash
-├── Task-1
+├── Task-2
     ├──Autoencoder.ipynb 
     ├──Restormer.ipynb
     ├──Task2DataSet.zip
