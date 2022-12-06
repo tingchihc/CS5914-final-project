@@ -7,7 +7,7 @@ https://arxiv.org/pdf/2003.01279.pdf
 ## Group 3  
 Name: Ting-Chih Chen and Xiao Guo  
 
-## Task-1 Break down the defender  
+## Task-1 Test the transferability to other DeepFake models 
 
 ```bash
 ├── Task-1
@@ -33,6 +33,7 @@ Name: Ting-Chih Chen and Xiao Guo
         └── Readme.md
     ├── Evaluation.py
     └── Results - Task1.csv
+
 ```
 
 Method-1: fewshot-face-translation-GAN  
@@ -48,8 +49,10 @@ Method-3: StyleGAN-NADA
 | StyleGAN-NADA | 247.152 | 0.777 | 25.259 |  
 | StyleGAN-Baseline | 226.91 | 0.799 | 26.611 |  
 
-## Task-2 Reverse the perturbation images to source images  
-Method-1: auto-encoder  
+## Task-2 Removing the perturbation in the images
+```bash
+├── Task-1
+Method-1: Denosing auto-encoder  
 Method-2: Image restoration  
 
 ### Results  
