@@ -55,5 +55,6 @@ Method-3: StyleGAN-NADA
     ├──Autoencoder.ipynb 
     ├──Restormer.ipynb
     └──Task2DataSet.zip
-
-### Results  
+```
+Method-1: Auto-encoder  
+Method-2: Restormer  
