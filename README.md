@@ -1,7 +1,8 @@
 # CS5914-final-project
 
 
-[Report](https://github.com/ting-chih/CS5914-final-project/blob/main/Final%20report.pdf)  
+[Report](https://github.com/ting-chih/CS5914-final-project/blob/main/Final%20report.pdf) 
+[Slides](https://github.com/ting-chih/CS5914-final-project/blob/main/Presentation/Final%20project%20presentation.pdf)
 
 ## Reference paper  
 Disrupting Deepfakes: Adversarial Attacks Against Conditional Image Translation Networks and Facial Manipulation Systems  
