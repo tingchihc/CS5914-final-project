@@ -4,6 +4,10 @@
 [Report](https://github.com/ting-chih/CS5914-final-project/blob/main/Final%20report.pdf)  
 [Slides](https://github.com/ting-chih/CS5914-final-project/blob/main/Presentation/Final%20project%20presentation.pdf)
 
+ * Topic: Attacking On Disrupting-Deepfakes: Methodology Transferability And Perturbation Removal  
+ * Designed an auto‑encoder to eliminate disruptions in deepfakes, examining its transferability across various deepfake models  
+ * Validated that the perturbed images had no adverse effects on the performance of other deepfake models, resulting in an MSE score of 0.75  
+
 ## Reference paper  
 Disrupting Deepfakes: Adversarial Attacks Against Conditional Image Translation Networks and Facial Manipulation Systems  
 https://arxiv.org/pdf/2003.01279.pdf  
